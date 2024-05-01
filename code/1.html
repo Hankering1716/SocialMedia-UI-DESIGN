@@ -41,7 +41,7 @@
     </head>        
 
     <body>
-        <div class="container-fluid bg-white">
+        <div class="container-fluid bg-white" style="overflow-y: scroll;">
             <div class="row flex-nowrap">
                 <div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0 bg-dark">
                     <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100">
@@ -50,17 +50,24 @@
                         </a>
                         <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
                             <li class="nav-item">
-                                <a href="#" class="nav-link align-middle px-0">
-                                    <i class="fs-4  "></i> <span class="ms-1 d-none d-sm-inline bi bi-house"> Home</span>
+                                <a href="#" data-bs-toggle="collapse" class="nav-link px-0 align-middle ">
+                                    <i class="fs-4 bi-house bi"></i> <span class="fs-4 ms-1 d-none d-sm-inline bi "> Home</span>
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a href="#submenu1" data-bs-toggle="collapse" class="nav-link px-0 align-middle">
-                                    <i class="fs-4 bi-speedometer"></i> <span class="ms-1 d-none d-sm-inline">Dashboard</span> 
+                                <a href="#1" data-bs-toggle="collapse" class="nav-link px-0 align-middle">
+                                    <i class="fs-4 bi-speedometer"></i> <span class="fs-4 ms-1 d-none d-sm-inline">Dashboard</span> 
                                 </a>
                             </li>
                             <li class="nav-item">
-                                
+                                <a href="#" data-bs-toggle="collapse" class="nav-link px-0 align-middle">
+                                    <i class="fs-4 bi bi-geo-alt"></i><span class="fs-4 ms-1 d-none d-sm-inline">Explore</span>
+                                </a> 
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" data-bs-toggle="collapse" class="nav-link px-0 align-middle">
+                                    <i class="fs-4 bi bi-calendar"></i><span class="fs-4 ms-1 d-none d-sm-inline">Events</span>
+                                </a>
                             </li>
                            
                         </ul>
@@ -68,12 +75,29 @@
                         
                     </div>
                 </div>
-               
-                <div class="col py-3 text-black">
-                    Content area...
+    
+
+
+                <div class="col py-3 text-black" id="contentArea">
+                       
+                    <div class="input-group  " style="top:0;">
+                        <button class="input-group-text bi bi-search"></button>
+                        <input type="text" class="form-control w-75" placeholder="Username" aria-label="Username">
+                    </div>
+
+
+                        <div id="Profile" class="w-100">
+                            <div class="container">
+                                    <div id="backgroundProfile">
+                                        CO tam
+                                    </div>
+                            
+                            </div>
+                        </div>
+
                 </div>
-            </div>
-        </div>
+
+
       
     </body>
 </html>
