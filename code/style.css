@@ -1,1 +1,61 @@
+#contentArea {
+    
+    max-width: 70%;
+}
+
+#backgroundProfile {
+background: linear-gradient( #73ab73, #5e5490, #7e4d19);
+    
+}
+
+#username {
+    margin-left: 10%;
+    
+    position: relative;
+}
+#avatar {
+    background-image: url('https://i.stack.imgur.com/Dj7eP.jpg');
+    border: 1px solid black;
+
+    width:150px;
+    height:150px;
+
+    background-size:cover;
+
+    background-position: top center;
+
+    border-radius: 50%;
+}
+
+
+#managment {
+    background-color: #74502a;
+}
+
+#backgroundProfile {
+    width: 390px;
+    min-width: 300px;
+}
+
+
+
+
+
+html {
+    overflow-x:hidden;
+}
+
+#sidebar2 {
+
+    float:right;
+    top:0;
+    position: relative;
+
+}
+    
+
+#Introduction {
+    width: 390px;
+    min-width: 300px;
+}
 
