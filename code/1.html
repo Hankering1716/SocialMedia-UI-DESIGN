@@ -41,9 +41,9 @@
     </head>        
 
     <body>
-        <div class="container-fluid bg-white" style="overflow-y: scroll;">
+        <div class="container-fluid w-100 " >
             <div class="row flex-nowrap">
-                <div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0 bg-dark">
+                <div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0 " style="background-color: rgb(95, 142, 110);">
                     <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100">
                         <a href="/" class="d-flex align-items-center pb-3 mb-md-0 me-md-auto text-white text-decoration-none">
                             <span class="fs-5 d-none d-sm-inline text-center">Key Ultra</span>
@@ -69,7 +69,7 @@
                                     <i class="fs-4 bi bi-calendar"></i><span class="fs-4 ms-1 d-none d-sm-inline">Events</span>
                                 </a>
                             </li>
-                           
+                            
                         </ul>
                         <hr>
                         
@@ -78,26 +78,99 @@
     
 
 
-                <div class="col py-3 text-black" id="contentArea">
+                <div class="col  text-black bg-dark w-25" id="contentArea">
                        
-                    <div class="input-group  " style="top:0;">
+                    <div class="input-group pb-3" style="top:0;width: 300px;">
                         <button class="input-group-text bi bi-search"></button>
-                        <input type="text" class="form-control w-75" placeholder="Username" aria-label="Username">
+                        <input type="text" class="form-control"  placeholder="Username" aria-label="Username">
                     </div>
 
 
-                        <div id="Profile" class="w-100">
+                        <div id="Profile" class="" >
                             <div class="container">
-                                    <div id="backgroundProfile">
-                                        CO tam
+                                    <div id="backgroundProfile" >
+                                        <div id="avatar">
+                                           
+                                        </div>
+                                        <p id="username" class="text-white fw-bold d-inline">John Doe</p>
                                     </div>
-                            
+                                    
+                                    
+                                    <div id="managment " class="d-inline ">
+                                             
+                                        <button class='btn btn-primary'>
+                                            Timeline
+                                        </button>
+                                      
+                                        <button class="btn btn-primary">
+                                            About
+                                        </button>
+
+                                        <button class="btn btn-primary">
+                                            Friends
+                                        </button>
+
+                                        <button class='btn btn-primary'>
+                                            Photos
+                                        </button>
+
+                                        <button class="btn btn-primary">
+                                            More
+                                        </button>
+                                    </div>
+                            </div>
+
+                            <div class="w-50 container p-relative ml-0 mr-0 pt-3" style="left:0;float:left;" >
+                                <div id="Introduction" class="bg-warning">
+                                    <h5>Introduction</h5>
+                                    <p><span class="bi bi-droplet "></span>Painter at <a href="https://en.wikipedia.org/wiki/Warsaw" style="text-decoration: none;" target="_blank">Warsaw</a></p>
+                                    <p><span class="bi bi-house"></span>Live at <a href="https://www.google.pl/maps/place/05-800+Pruszk%C3%B3w"style="text-decoration:none" target="_blank">Pruszków</a></p>
+                                    <p><span class="bi bi-name"></span>Name: John Doe</p>
+                                </div>
                             </div>
                         </div>
 
                 </div>
+                
+                <div class="col-auto  d-none d-lg-block d-md-block  col-md-3 col-xl-2 px-sm-2 px-0 " style="background-color: rgb(95, 142, 110); z-index: 0">
+                    <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100">
+                        <a href="/" class="d-flex align-items-center pb-3 mb-md-0  text-white text-decoration-none">
+                            <span class="fs-5 d-sm-inline text-center bi bi-envelope mr-3 "></span> 
+                        </a>
+                       
+                       
+                        <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
+                         
+                                <p href="#" class="px-0 align-middle ">
+                                    <span class="fs-4 ms-1 d-none d-sm-inline bi " style="color:purple"> Online</span>
+                                </p>
+                                <hr style="border:1px solid black;">
+                         
+                            <li class="nav-item">
+                                <a href="#1" data-bs-toggle="collapse" class="nav-link px-0 align-middle">
+                                    <i class="fs-4 bi-speedometer"></i> <span class="fs-4 ms-1 d-none d-sm-inline">Dashboard</span> 
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" data-bs-toggle="collapse" class="nav-link px-0 align-middle">
+                                    <i class="fs-4 bi bi-geo-alt"></i><span class="fs-4 ms-1 d-none d-sm-inline">Explore</span>
+                                </a> 
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" data-bs-toggle="collapse" class="nav-link px-0 align-middle">
+                                    <i class="fs-4 bi bi-calendar"></i><span class="fs-4 ms-1 d-none d-sm-inline">Events</span>
+                                </a>
+                            </li>
+                            
+                        </ul>
+                        <hr>
+                        
+                    </div>
+                </div>
+    
+            </div>
 
+        
 
-      
     </body>
 </html>
