@@ -4,7 +4,7 @@
 }
 
 #backgroundProfile {
-background: linear-gradient( #73ab73, #5e5490, #7e4d19);
+background: linear-gradient( #4176a5, #9486d9, #6aab5e);
     
 }
 
@@ -14,7 +14,7 @@ background: linear-gradient( #73ab73, #5e5490, #7e4d19);
     position: relative;
 }
 #avatar {
-    background-image: url('https://i.stack.imgur.com/Dj7eP.jpg');
+    background-image: url("https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
     border: 1px solid black;
 
     width:150px;
@@ -59,3 +59,12 @@ html {
     min-width: 300px;
 }
 
+.imageSideBar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;   
+}
+
+.profile-pic {
+
+}
