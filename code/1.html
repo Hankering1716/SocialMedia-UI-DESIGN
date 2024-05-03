@@ -46,7 +46,8 @@
                 <div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0 " style="background-color: rgb(95, 142, 110);">
                     <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100">
                         <a href="/" class="d-flex align-items-center pb-3 mb-md-0 me-md-auto text-white text-decoration-none">
-                            <span class="fs-5 d-none d-sm-inline text-center">Key Ultra</span>
+                            <span class="fs-5  d-sm-inline text-center" style="text-shadow:2px 7px 5px rgba(0,0,0,0.3), 0px -4px 10px rgba(255,255,255,0.3);">Key Ultra</span>
+                          
                         </a>
                         <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
                             <li class="nav-item">
@@ -78,7 +79,7 @@
     
 
 
-                <div class="col  text-black bg-dark w-25" id="contentArea">
+                <div class="col  text-black bg-dark " id="contentArea">
                        
                     <div class="input-group pb-3" style="top:0;width: 300px;">
                         <button class="input-group-text bi bi-search"></button>
@@ -123,44 +124,81 @@
                             <div class="w-50 container p-relative ml-0 mr-0 pt-3" style="left:0;float:left;" >
                                 <div id="Introduction" class="bg-warning">
                                     <h5>Introduction</h5>
-                                    <p><span class="bi bi-droplet "></span>Painter at <a href="https://en.wikipedia.org/wiki/Warsaw" style="text-decoration: none;" target="_blank">Warsaw</a></p>
-                                    <p><span class="bi bi-house"></span>Live at <a href="https://www.google.pl/maps/place/05-800+Pruszk%C3%B3w"style="text-decoration:none" target="_blank">Pruszków</a></p>
-                                    <p><span class="bi bi-name"></span>Name: John Doe</p>
+                                    <p><span class="bi bi-droplet "></span> Painter at <a href="https://en.wikipedia.org/wiki/Warsaw" style="text-decoration: none;" target="_blank">Warsaw</a></p>
+                                    <p><span class="bi bi-house"></span> Live at <a href="https://www.google.pl/maps/place/05-800+Pruszk%C3%B3w"style="text-decoration:none" target="_blank">Pruszków</a></p>
+                                    <p><span class="bi bi-person-arms-up"></span> Name: John Doe</p>
                                 </div>
                             </div>
+
+                            <div class="container border" style="float:left;">
+                                <div class="w-50 container p-relative ml-0 mr-0 pt-3" style="left:0;float:left;">
+                                    <div id="buttonsAbove" class="d-inline">
+                                        <a class="nav-link active" style="border-radius:50%;">Status</a>
+                                        <a class="nav-link" style="border-radius:50%;">Photos</a>
+                                        <a class="nav-link" style="border-radius:50%;">Videos</a>
+                                    </div>
+                                    <div id="writeTo" class="input-group mb-3">
+                                      
+                                        <input type="text" placeholder="Write something to John Doe" class="form-control w-100">
+                                        <button class="btn btn-primary">SHARE</button>
+                                    </div>
+                                    <hr style="width: 100%;">
+
+                                </div>
+                            </div>
+                           
                         </div>
+              
 
                 </div>
                 
                 <div class="col-auto  d-none d-lg-block d-md-block  col-md-3 col-xl-2 px-sm-2 px-0 " style="background-color: rgb(95, 142, 110); z-index: 0">
                     <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100">
-                        <a href="/" class="d-flex align-items-center pb-3 mb-md-0  text-white text-decoration-none">
-                            <span class="fs-5 d-sm-inline text-center bi bi-envelope mr-3 "></span> 
-                        </a>
-                       
+                        <div class="d-inline mr-3">
+                            <a href="/" class="d-inline-block align-items-center pb-3 ml-3 mb-md-0  text-white text-decoration-none">
+                                <span class="fs-5 d-md-inline text-center bi bi-envelope mr-l "></span> 
+                                
+                            </a>
+                            <a href="/" class="d-inline-block align-items-center  text-white text-decoration-none">
+                                <span class="fs-5 d-md-inline text-center bi bi-bell-fill  "></span>  
+                            </a>
+                            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 profile-menu"> 
+                                <li class="nav-item dropdown">
+                                  <a class="nav-link " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <div class="profile-pic">
+                                        <img style="width:70px; height:60px" src="https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="imageSideBar" alt="Profile Picture">
+                                        <p>John Doe <span class="dropdown-toggle"></span></p>
+                             
+                                    </div>     </a>
+
+                          
+                                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="#"><i class="fas fa-sliders-h fa-fw"></i> Account</a></li>
+                                    <li><a class="dropdown-item" href="#"><i class="bi bi-settings"></i> Settings</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="#"><i class="fas fa-sign-out-alt fa-fw"></i> Log Out</a></li>
+                                  </ul>
+                        </div>
+                        
                        
                         <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
                          
-                                <p href="#" class="px-0 align-middle ">
-                                    <span class="fs-4 ms-1 d-none d-sm-inline bi " style="color:purple"> Online</span>
+                                <p href="#" class=" align-middle ">
+                                    <span class="fs-4  d-none d-sm-inline bi bi-people-fill " style="color:purple"> Friends</span>
                                 </p>
-                                <hr style="border:1px solid black;">
+                          
                          
                             <li class="nav-item">
-                                <a href="#1" data-bs-toggle="collapse" class="nav-link px-0 align-middle">
-                                    <i class="fs-4 bi-speedometer"></i> <span class="fs-4 ms-1 d-none d-sm-inline">Dashboard</span> 
+                                <p  data-bs-toggle="collapse" class=" px-0">
+                                    <i class="fs-4 " style="color:rgb(58, 134, 58)">•</i> <img src="https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="imageSideBar"> Monika
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a href="#" data-bs-toggle="collapse" class="nav-link px-0 align-middle">
-                                    <i class="fs-4 bi bi-geo-alt"></i><span class="fs-4 ms-1 d-none d-sm-inline">Explore</span>
-                                </a> 
-                            </li>
-                            <li class="nav-item">
-                                <a href="#" data-bs-toggle="collapse" class="nav-link px-0 align-middle">
-                                    <i class="fs-4 bi bi-calendar"></i><span class="fs-4 ms-1 d-none d-sm-inline">Events</span>
+                                <p  data-bs-toggle="collapse" class=" px-0">
+                                    <i class="fs-4 " style="color:red">•</i> <img src="https://images.pexels.com/photos/609549/pexels-photo-609549.jpeg?auto=compress&cs=tinysrgb&w=600" class="imageSideBar"> Ewa
                                 </a>
                             </li>
+      
                             
                         </ul>
                         <hr>
