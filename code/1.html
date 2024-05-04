@@ -87,8 +87,8 @@
                     </div>
 
 
-                        <div id="Profile" class="" >
-                            <div class="container">
+                        <div id="Profile" class="w-100">
+                            <div class="">
                                     <div id="backgroundProfile" >
                                         <div id="avatar">
                                            
@@ -121,7 +121,7 @@
                                     </div>
                             </div>
 
-                            <div class="w-50 container p-relative ml-0 mr-0 pt-3" style="left:0;float:left;" >
+                            <div class="container p-relative ml-0 mr-0 pt-3" style="left:0;float:left;width: 100%;" >
                                 <div id="Introduction" class="bg-warning">
                                     <h5>Introduction</h5>
                                     <p><span class="bi bi-droplet "></span> Painter at <a href="https://en.wikipedia.org/wiki/Warsaw" style="text-decoration: none;" target="_blank">Warsaw</a></p>
@@ -130,26 +130,45 @@
                                 </div>
                             </div>
 
-                            <div class="container border" style="float:left;">
-                                <div class="w-50 container p-relative ml-0 mr-0 pt-3" style="left:0;float:left;">
+                            <div class="container border mb-3" style="float:left;">
+                                <div class="w-50 container text-white p-relative ml-0 mr-0 pt-3" style="left:0;float:left;">
                                     <div id="buttonsAbove" class="d-inline">
-                                        <a class="nav-link active" style="border-radius:50%;">Status</a>
-                                        <a class="nav-link" style="border-radius:50%;">Photos</a>
-                                        <a class="nav-link" style="border-radius:50%;">Videos</a>
+                                        <ul id="listPost" class="mb-3">
+                                            <li class="active"><a href="#">Status</a></li>
+                                            <li><a href="#">Photos</a></li>
+                                            <li><a href="#">Videos</a></li>
+                                        </ul>
                                     </div>
                                     <div id="writeTo" class="input-group mb-3">
                                       
-                                        <input type="text" placeholder="Write something to John Doe" class="form-control w-100">
+                                        <input type="text" placeholder="Write something to John Doe" class="form-control w-100 mb-3">
                                         <button class="btn btn-primary">SHARE</button>
                                     </div>
-                                    <hr style="width: 100%;">
+                                 
 
                                 </div>
                             </div>
+
+                            
                            
                         </div>
               
-
+                        <div class="container text-white" style="float:left;left:0;">
+                            <div class="container w-100 p-relative border" style="float:left;left:0;">
+                               <div id="AvatarName" class="d-inline">
+                                    <div class="d-inline">
+                                        <div id="avatar"></div>
+                                        <p id="imageBefore" class="text-white">John Doe create new album</p>
+                                    </div>
+                               
+                                <div id="album" >
+                                    <img width="" height="500" src="https://cdn.pixabay.com/photo/2017/11/02/00/34/parrot-2909828_1280.jpg" alt="parrot">
+                                    <p >I love my parrot!  <span class="bi bi-heart"></span></p>
+                                </div>
+                               
+                            </div>
+                            </div>
+                        </div>
                 </div>
                 
                 <div class="col-auto  d-none d-lg-block d-md-block  col-md-3 col-xl-2 px-sm-2 px-0 " style="background-color: rgb(95, 142, 110); z-index: 0">
@@ -204,6 +223,8 @@
                         <hr>
                         
                     </div>
+
+                    
                 </div>
     
             </div>
