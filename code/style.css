@@ -68,3 +68,37 @@ html {
 .profile-pic {
 
 }
+
+#listPost {
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+
+#listPost > li {
+    float:left;
+}
+
+#listPost > li a {
+    display: block;
+    color:White;
+    text-align:center;
+    padding:14px 18px;
+    text-decoration: none;
+}
+
+#listPost > li a:hover:not(.active) {
+    background-color: #111;
+}
+
+#listPost > .active {
+    background-color: #04AA6D;
+}
+
+
+#menu > li > a {
+    color:black;
+}
